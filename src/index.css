@@ -1,0 +1,116 @@
+.card{
+  border: 1px solid hsl(0, 20%, 72%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(122, 114, 114);
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card .card-image{
+max-width: 60%;
+height: auto;
+border-radius: 50%;
+margin-bottom: 10px;
+}
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #2b2929
+  ;
+}
+.card .card-text{
+  font-family: Arial, sans-serif;
+  color: rgb(48, 47, 47);
+  
+}
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: rgb(180, 124, 124);
+  margin-bottom: 10px;
+  text-align: center;
+  border:  3px solid;
+  border-radius: 5px;
+  background-color: wheat;
+
+}
+.list-items li{
+  font-size:  2em;
+  list-style: none;
+  color: rgb(128, 66, 66);
+  text-align: center;
+  margin: 0;
+  
+}
+h1 {
+  text-align: center;
+}
+
+input {
+  margin-right: 10px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-self:center;
+}
+.color-picker-container label, input{
+  align-self:center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.h1-color{
+  margin: 50px;
+  font-size: 3rem;
+}
+.color-display{
+width: 300px;
+height: 300px;
+display: flex;
+justify-content: center;
+align-self:center;
+border: 5px solid hsl(0, 0%, 80%);
+border-radius: 25px;
+border-bottom: 25px;
+transition: 0.25 ease-in;
+}
+.color-display p{
+  font-size: 2rem;
+  text-align: center;
+}
+input[type="color"]{
+  width: 75px;
+  height: 60px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.clock-container{
+backdrop-filter: blur(500px);
+padding: 10px 0;
+}
+.clock{
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}
